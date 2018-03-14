@@ -76,7 +76,7 @@ SECRET_KEY = '2kcoaurkhysh1=-e@k$d+$xe^#!mdl5%hn9j8@)6)1^cv)52rv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.1.26']
 
 PROJECT_APPS = [
     'api',
@@ -87,8 +87,6 @@ PROJECT_APPS = [
 # Application definition
 
 INSTALLED_APPS = [
-    # 'chat',
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
